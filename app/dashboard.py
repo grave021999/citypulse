@@ -10,7 +10,7 @@ st.markdown("Predict high-demand NYC taxi rides using precomputed AI predictions
 # --- Load precomputed predictions from database ---
 @st.cache_data
 def load_data():
-    conn = sqlite3.connect("db/traffic.db")
+    conn = sqlite3.connect("data/traffic.db")
     df = pd.read_sql("SELECT * FROM rides_predicted", conn)
     df["pickup_datetime"] = pd.to_datetime(df["pickup_datetime"])
     df = df[df["trip_distance"] >= 0.1]  # Remove zero-mile trips
