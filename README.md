@@ -1,3 +1,4 @@
+<img width="1280" height="579" alt="banner" src="https://github.com/user-attachments/assets/567571bd-1a6a-4fb8-8576-920152813760" />
 # 🚕 CityPulse – Smart Urban Ride Demand Forecasting
 
 **CityPulse** is an interactive AI-powered dashboard built with Streamlit that predicts high-demand taxi ride zones in New York City. It enables users to explore urban transportation trends through precomputed machine learning predictions, dynamic filters, and intuitive visualizations.
